@@ -1,0 +1,15 @@
+body{
+  background-color: black;
+}
+.card {
+  width:25rem;
+  box-shadow:rgb(223, 165, 182) 5px 10px 15px;
+}
+.card:hover {
+  box-shadow: rgb(36, 219, 60) 0px 54px 55px, rgb(36, 219, 60) 0px -12px 30px, rgb(36, 219, 60) 0px 4px 6px, rgb(36, 219, 60) 0px 12px 13px, rgb(36, 219, 60) 0px -3px 5px;
+  transition: transform 0.4s;
+  transform: scale(1.05);
+}
+.state {
+  border-bottom:2px solid red;
+}
