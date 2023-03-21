@@ -13,3 +13,8 @@ body{
 .state {
   border-bottom:2px solid red;
 }
+.gif {
+  height: 160px;
+  border-radius: 40px;
+  margin:15px 0;
+}
