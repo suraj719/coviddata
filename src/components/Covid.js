@@ -26,7 +26,7 @@ var totaldischargeed = cases.reduce((total,acc) => {
   return (
     <div className="header text-center mt-5">
         <h1 className="text-danger">COVID-19 DATA</h1>
-        <img className="gif" src={gif}/>
+        <img className="gif" src={gif} alt="covid gif"/>
         <p className="text-white fs-5">
             Total Confirmed cases : {totalcases} <br/>
             Total Deaths : {totaldeaths} <br/>
